@@ -53,7 +53,9 @@ Y una captura post procesamiento con IA:
 
 ---
 
-## La version DEMO de nuestra aplicacion... ¿Qué es este programa?
+# La version DEMO de nuestra aplicacion de reconocimiento con vision artificial e inteligencia artificial... 
+
+## ¿Qué es este programa?
 
 Este programa es una herramienta de monitoreo visual que permite analizar imágenes, videos o cámaras en vivo para detectar automáticamente zonas de lodo, 
 mantos orgánicos o presencia biológica (como peces o formaciones blanquecinas) en ambientes acuáticos.
@@ -171,6 +173,9 @@ Este proyecto demuestra cómo la tecnología avanzada puede ser una herramienta 
 
 ![Prueba_BETA_PTEC_24](https://github.com/user-attachments/assets/7918c595-1ae2-4c22-842f-f724f2ba4ecd)
 
+![Prueba_BETA_PTEC_22](https://github.com/user-attachments/assets/08123b6a-9b5e-4545-99b6-8fdacd20a55e)
+
+
 _Por razones de derechos de autoria, nos reservamos mostrar nuestro diseño modular del generador e inyector de NB_
 
 ---
@@ -179,18 +184,119 @@ _Por razones de derechos de autoria, nos reservamos mostrar nuestro diseño modu
 
 ### 1. Principio de Funcionamiento
 La mayoría de los generadores de nanoburbujas utilizan métodos físicos para forzar la formación de burbujas extremadamente pequeñas. Los métodos comunes incluyen la cavitación hidrodinámica o la disolución a presión, seguidas de una descompresión repentina. 
-Disolución a Presión: El gas (oxígeno, en tu caso) se disuelve en agua bajo alta presión, alcanzando un estado de sobresaturación. Al liberar esta mezcla a presión atmosférica a través de una boquilla o un punto de cizallamiento (shear point) especialmente diseñado, el gas se ve forzado a salir de la solución en forma de innumerables nanoburbujas.
-Cavitación Hidrodinámica: El agua y el gas se fuerzan a través de una constricción (como una válvula venturi o placas de cavitación), creando cambios rápidos de presión y velocidad del flujo. Estos cambios forman microcavidades que colapsan violentamente, dividiendo el gas en partículas a escala nanométrica. 
+**Disolución a Presión:** El gas (oxígeno, en este caso) se disuelve en agua bajo alta presión, alcanzando un estado de sobresaturación. Al liberar esta mezcla a presión atmosférica a través de una boquilla o un punto de cizallamiento (shear point) especialmente diseñado, el gas se ve forzado a salir de la solución en forma de innumerables nanoburbujas.
+**Cavitación Hidrodinámica:** El agua y el gas se fuerzan a través de una constricción (como una válvula venturi o placas de cavitación), creando cambios rápidos de presión y velocidad del flujo. Estos cambios forman microcavidades que colapsan violentamente, dividiendo el gas en partículas a escala nanométrica. 
 
 ### 2. Propiedades Clave de las Nanoburbujas
 El potencial de mitigación radica en las propiedades únicas de estas burbujas:
-Tamaño y Estabilidad: Tienen un diámetro promedio de menos de 200 nanómetros (nm), lo que las hace invisibles a simple vista. A diferencia de las burbujas normales que suben y estallan rápidamente, las nanoburbujas son casi neutramente boyantes y permanecen suspendidas en el agua durante semanas o meses, moviéndose por movimiento browniano.
-Distribución Homogénea de Oxígeno: Su estabilidad y movimiento aseguran que el oxígeno se distribuya de manera uniforme en toda la columna de agua, desde la superficie hasta el fondo, donde se encuentran las alfombras bacterianas.
-Carga Superficial: Tienen una carga negativa en su superficie, lo que evita que se fusionen (coalescencia) y les permite adherirse a contaminantes y biofilm, ayudando en su eliminación.
-Alta Eficiencia de Transferencia de Gas: El área de superficie por volumen de las nanoburbujas es exponencialmente mayor que la de las burbujas tradicionales, lo que resulta en una eficiencia de transferencia de oxígeno de más del 85%, mucho mayor que los métodos de aireación convencionales. 
+_**Tamaño y Estabilidad:**_ Tienen un diámetro promedio de menos de 200 nanómetros (nm), lo que las hace invisibles a simple vista. A diferencia de las burbujas normales que suben y estallan rápidamente, las nanoburbujas son casi neutramente boyantes y permanecen suspendidas en el agua durante semanas o meses, moviéndose por movimiento browniano.
+_**Distribución Homogénea de Oxígeno:**_ Su estabilidad y movimiento aseguran que el oxígeno se distribuya de manera uniforme en toda la columna de agua, desde la superficie hasta el fondo, donde se encuentran las alfombras bacterianas.
+_**Carga Superficial:**_ Tienen una carga negativa en su superficie, lo que evita que se fusionen (coalescencia) y les permite adherirse a contaminantes y biofilm, ayudando en su eliminación.
+_**Alta Eficiencia de Transferencia de Gas:**_ El área de superficie por volumen de las nanoburbujas es exponencialmente mayor que la de las burbujas tradicionales, lo que resulta en una eficiencia de transferencia de oxígeno de más del 85%, mucho mayor que los métodos de aireación convencionales. 
 
 ### 3. Rol en la Mitigación de la Problemática Patagonica
-Al inyectar nanoburbujas de oxígeno en los sedimentos enriquecidos:
+_**Al inyectar nanoburbujas de oxígeno en los sedimentos enriquecidos:**_
 Se aumentan los niveles de oxígeno disuelto en el fondo, combatiendo las condiciones anóxicas.
 Esto ayuda a degradar la materia orgánica acumulada y a suprimir las bacterias dañinas que forman las alfombras, restaurando el equilibrio del ecosistema bentónico.
 
+---
+
+# SOFTWARE/APP de calculo de Inyeccion
+
+<img width="1326" height="643" alt="capturaAppINYECCION" src="https://github.com/user-attachments/assets/94ce2801-e07a-4cce-b290-ad2d47bdf42e" />
+
+
+## Antes que nada: ¿por qué nanoburbujas?
+
+La inyección de nanoburbujas de oxígeno es una herramienta muy potente para mejorar fondos marinos degradados, pero no es mágica.
+
+**Lo bueno:**
+
+- El oxígeno llega mejor al sedimento.
+
+- Dura más tiempo disuelto en el agua.
+
+- Puede ayudar a recuperar zonas con bajo oxígeno.
+
+- Reduce malos olores y procesos anaeróbicos.
+
+**Pero también tiene contras importantes, y acá está el punto clave:**
+
+❌ Si se inyecta poco oxígeno, el fondo no mejora.
+
+❌ Si se inyecta demasiado, se desperdicia energía y equipos.
+
+❌ Cada lugar es distinto: no sirve una receta única.
+
+❌ Las corrientes pueden llevarse el oxígeno antes de que llegue al fondo.
+
+❌ La profundidad cambia completamente el comportamiento del sistema.
+
+❌ Sin cálculo, es fácil invertir mucho dinero sin resultados claros.
+
+Por eso, el problema no es la tecnología, sino cómo se usa.
+
+**¿Por qué se buscó una solución a nivel software?**
+
+Justamente porque en muchos casos la inyección de nanoburbujas se aplica:
+
+- “por experiencia”
+
+- copiando valores de otro centro
+
+- o sobredimensionando “por las dudas”
+
+Eso genera costos altos y resultados difíciles de justificar...
+
+Este programa nace para responder una pregunta simple pero crítica:
+
+ ### 👉¿Cuánto oxígeno hace falta realmente en este lugar y en estas condiciones?
+
+**_¿Qué hace este programa?_**
+
+Este programa permite calcular de forma simple cuánta inyección de nanoburbujas necesita el fondo marino debajo de una jaula de cultivo, considerando:
+
+- Tamaño de la jaula
+
+- Profundidad
+
+- Tipo de ambiente (mar abierto o estuario)
+
+- Corrientes
+
+- Demanda real del sedimento
+
+- Pérdidas y eficiencia del sistema
+
+- Todo eso se traduce en números concretos, fáciles de entender.
+
+**¿Qué problema resuelve?**
+
+_Evita dos errores muy comunes:_
+
+❌ Sistemas que no alcanzan y no remedian
+
+❌ Sistemas sobredimensionados que encarecen la operación
+
+_El programa apunta al equilibrio, donde la biorremediación es:_
+
+- efectiva
+
+- medible
+
+- justificable técnica y económicamente
+
+_¿Qué entrega como resultado?_
+
+- Cuánto oxígeno se necesita por día
+
+- Cuánto oxígeno hay que inyectar por hora
+
+- Qué tipo de equipo es el más adecuado para ese escenario
+
+En pocas palabras: _**"Una base objetiva para tomar decisiones"**_
+
+
+
+“Las nanoburbujas funcionan, pero solo cuando se usan en la cantidad correcta.
+Este programa existe para pasar de la prueba y error a decisiones basadas en datos.”
