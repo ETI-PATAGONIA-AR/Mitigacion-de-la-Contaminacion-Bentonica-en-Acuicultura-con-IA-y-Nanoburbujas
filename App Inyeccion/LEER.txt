@@ -1,0 +1,8 @@
+Explicación de las Variables de la Plantilla: 
+
+Presión Atmosférica (1+prof/1): A 60 metros de profundidad, la presión es de 7 ATM. Esto significa que el agua puede retener 7 veces más oxígeno disuelto que en la superficie, optimizando la inyección.
+
+Factor de Seguridad (Fs):
+- En Mar Abierto, se sitúa en 2.5 porque la corriente arrastra rápidamente el agua oxigenada lejos del lecho de la jaula.
+- En Estuarios, se sitúa en 1.3 porque el agua está más estática y el oxígeno permanece más tiempo sobre el sedimento.
+- SOD (Sediment Oxygen Demand): Las truchas en jaulas de 30x30 generan una carga de nitrógeno y coliformes alta. Un valor de 15-20 g/m²/día es el estándar de remediación para fondos "negros" o anóxicos. 
