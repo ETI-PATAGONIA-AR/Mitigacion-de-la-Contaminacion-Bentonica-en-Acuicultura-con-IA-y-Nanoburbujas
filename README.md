@@ -183,19 +183,31 @@ _Por razones de derechos de autoria, nos reservamos mostrar nuestro diseño modu
 ## Detalles Técnicos del Generador de Nanoburbujas
 
 ### 1. Principio de Funcionamiento
+
 La mayoría de los generadores de nanoburbujas utilizan métodos físicos para forzar la formación de burbujas extremadamente pequeñas. Los métodos comunes incluyen la cavitación hidrodinámica o la disolución a presión, seguidas de una descompresión repentina. 
+
 **Disolución a Presión:** El gas (oxígeno, en este caso) se disuelve en agua bajo alta presión, alcanzando un estado de sobresaturación. Al liberar esta mezcla a presión atmosférica a través de una boquilla o un punto de cizallamiento (shear point) especialmente diseñado, el gas se ve forzado a salir de la solución en forma de innumerables nanoburbujas.
+
 **Cavitación Hidrodinámica:** El agua y el gas se fuerzan a través de una constricción (como una válvula venturi o placas de cavitación), creando cambios rápidos de presión y velocidad del flujo. Estos cambios forman microcavidades que colapsan violentamente, dividiendo el gas en partículas a escala nanométrica. 
 
+---
+
 ### 2. Propiedades Clave de las Nanoburbujas
+
 El potencial de mitigación radica en las propiedades únicas de estas burbujas:
+
 _**Tamaño y Estabilidad:**_ Tienen un diámetro promedio de menos de 200 nanómetros (nm), lo que las hace invisibles a simple vista. A diferencia de las burbujas normales que suben y estallan rápidamente, las nanoburbujas son casi neutramente boyantes y permanecen suspendidas en el agua durante semanas o meses, moviéndose por movimiento browniano.
+
 _**Distribución Homogénea de Oxígeno:**_ Su estabilidad y movimiento aseguran que el oxígeno se distribuya de manera uniforme en toda la columna de agua, desde la superficie hasta el fondo, donde se encuentran las alfombras bacterianas.
+
 _**Carga Superficial:**_ Tienen una carga negativa en su superficie, lo que evita que se fusionen (coalescencia) y les permite adherirse a contaminantes y biofilm, ayudando en su eliminación.
+
 _**Alta Eficiencia de Transferencia de Gas:**_ El área de superficie por volumen de las nanoburbujas es exponencialmente mayor que la de las burbujas tradicionales, lo que resulta en una eficiencia de transferencia de oxígeno de más del 85%, mucho mayor que los métodos de aireación convencionales. 
 
 ### 3. Rol en la Mitigación de la Problemática Patagonica
+
 _**Al inyectar nanoburbujas de oxígeno en los sedimentos enriquecidos:**_
+
 Se aumentan los niveles de oxígeno disuelto en el fondo, combatiendo las condiciones anóxicas.
 Esto ayuda a degradar la materia orgánica acumulada y a suprimir las bacterias dañinas que forman las alfombras, restaurando el equilibrio del ecosistema bentónico.
 
