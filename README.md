@@ -312,10 +312,3 @@ En pocas palabras: _**"Una base objetiva para tomar decisiones"**_
 
 “Las nanoburbujas funcionan, pero solo cuando se usan en la cantidad correcta.
 Este programa existe para pasar de la prueba y error a decisiones basadas en datos.”
-
-
-# Quiero dejar un especial agradecimiento y reconocimiento a Gabriela Solano (creadora y administradora de OMES), que virtualmente o platonicamente es practicamente una especie baston de apoyo gracias a sus aportes...
-
-## Los invito a que se suscriban a su canal: https://www.youtube.com/@OMES-va
-
-## y sigan su blog: https://omes-va.com/
