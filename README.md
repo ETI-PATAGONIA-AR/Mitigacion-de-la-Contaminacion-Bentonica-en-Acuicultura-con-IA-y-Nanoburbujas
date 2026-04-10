@@ -312,3 +312,7 @@ En pocas palabras: _**"Una base objetiva para tomar decisiones"**_
 
 “Las nanoburbujas funcionan, pero solo cuando se usan en la cantidad correcta.
 Este programa existe para pasar de la prueba y error a decisiones basadas en datos.”
+
+### Desarrollado por:
+prof.martintorres@educ.ar
+
